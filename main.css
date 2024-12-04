@@ -6,11 +6,13 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    margin-top: 27px;
+    font-size: 20px;
+    line-height: 8.91px;
+
     .nav {
         display: flex;
-
     }
 
     .nav p {
@@ -20,5 +22,104 @@ body {
 
     .lasles {
         display: flex;
+        font-size: 24px;
+        line-height: 11.13px;
+    }
+
+    .lasles span {
+        font-weight: bold;
+    }
+
+    .sign {
+        display: flex;
+    }
+
+    .sign .in {
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+        font-family: 'Bokor', sans-serif;
+        padding-right: 14px;
+
+        font-size: 20px;
+    }
+       
+
+    .sign .up {
+        color: #F53855;
+
+        background-color: transparent;
+        border: 0.47px solid #F53855;
+        
+        font-family: 'Bokor', sans-serif;
+        
+        padding-left: 21px;
+        padding-right: 21px;
+        
+        border-radius: 23.49px;
+
+        font-size: 20px;
+    }
+        
+}
+
+.text_img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+    
+    .no_img .w {
+        font-size: 50px;
+    }
+
+    .no_img p {
+        font-size: 20px;
+    }
+
+    .no_img .vpn {
+        font-weight: bold;
+    }
+
+    .no_img button {
+        background-color:   #F53838;
+
+        border: none;
+        border-radius: 4.7px;
+
+        color: white;
+        font-family: 'Bokor', sans-serif;
+        font-size: 20px;
+
+        width: 250px;
+        height: 50px;
+    }
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    .data_i {
+        display: flex;
+        // padding-left: 100px;
+        // padding-right: 100px;
+    }
+
+    .im_t {
+        display: flex;
+        flex-direction: column;
+        padding-left: 17.15px;
+    }
+
+    .im_t p {
+        margin: 0;
+    }
+
+    .bord {
+        border-left:1px solid #EEEFF2;
+        border-right: 1px solid #EEEFF2;
+
+        padding-left: 400px;
+        padding-right: 400px;
     }
 }
