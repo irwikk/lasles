@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
 
 body {
-    font-family: 'Bokor', sans-serif;
+    font-family: 'Cinzel', sans-serif;
     width: 1440px;
     margin: 0 auto;
 }
@@ -36,7 +37,7 @@ body {
             background-color: transparent;
             border: none;
             font-weight: bold;
-            font-family: 'Bokor', sans-serif;
+            font-family: 'Cinzel', sans-serif;
             padding-right: 14px;
 
             font-size: 16px;
@@ -52,7 +53,7 @@ body {
             background-color: transparent;
             border: 1px solid #F53855;
             
-            font-family: 'Bokor', sans-serif;
+            font-family: 'Cinzel', sans-serif;
             
             padding-left: 21px;
             padding-right: 21px;
@@ -103,13 +104,15 @@ body {
             border-radius: 4.7px;
 
             color: white;
-            font-family: 'Bokor', sans-serif;
+            font-family: 'Cinzel', sans-serif;
             font-size: 16px;
 
             width: 250px;
             height: 60px;
 
             margin-top: 50px;
+
+            box-shadow: 0 25px 54px #F5383859;
 
             &:hover {
                 cursor: pointer;
@@ -254,7 +257,7 @@ body {
                 background-color: transparent;
                 border: 1px solid #F53855;
                 
-                font-family: 'Bokor', sans-serif;
+                font-family: 'Cinzel', sans-serif;
                 border-radius: 50px;
 
                 font-size: 16px;
@@ -265,6 +268,7 @@ body {
                 &.act_button {
                     color: #FFFFFF;
                     background-color: #F53838;
+                    box-shadow: 0 25px 54px #F5383859;
                 }
 
                 &:hover {
@@ -288,5 +292,74 @@ body {
 
     .imges {
         margin-top: 156px;
+    }
+}
+
+.s5 {
+    text-align: center;
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        color: #4F5665;
+        font-size: 16px;
+    }
+
+    .all_rev {
+        text-align: left;
+        display: flex;
+
+        margin-left: 150px;
+    }
+
+    .reviews {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+        &.act_rev {
+            border: 2px solid #F53838;
+        }
+    width: 400px;
+    height: 230px;
+
+    margin-right: 50px;
+
+        p {
+            padding-left: 30px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+
+            font-size: 14px;
+        }
+    }
+
+    .profile {
+        display: flex;
+
+        padding-top: 30px;
+        padding-left: 30px;
+        .name_city {
+            h3 {
+                margin: 0;
+                font-size: 14px;
+            }
+
+            span {
+                font-size: 12px;
+            }
+        }
+        img { 
+            width: 50px;
+            height: 50px;
+
+            margin-right: 20px;
+        }
+        .star {
+            margin-left: 90px;
+            img {
+                width: 16px;
+                height: 16px;
+            }
+        }
     }
 }
