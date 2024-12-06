@@ -1,365 +1,294 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
 body {
-    font-family: 'Cinzel', sans-serif;
-    width: 1440px;
-    margin: 0 auto;
+  font-family: "Cinzel", sans-serif;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .header {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 27px;
-    font-size: 16px;
-    line-height: 8.91px;
-
-    img {
-        width: 35px;
-        height: 36.23px;
-    }
-        .nav {
-        display: flex;
-            p {
-            padding-left: 40px;
-            padding-right: 40px;
-            }
-        }
-    .lasles {
-        display: flex;
-        font-size: 20px;
-        line-height: 11.13px;
-    }
-
-    .sign {
-        display: flex;
-       .in {
-            background-color: transparent;
-            border: none;
-            font-weight: bold;
-            font-family: 'Cinzel', sans-serif;
-            padding-right: 14px;
-
-            font-size: 16px;
-
-            &:hover {
-                cursor: pointer;
-            }
-        } 
-
-        .up {
-        color: #F53855;
-
-            background-color: transparent;
-            border: 1px solid #F53855;
-            
-            font-family: 'Cinzel', sans-serif;
-            
-            padding-left: 21px;
-            padding-right: 21px;
-            
-            border-radius: 50px;
-
-            font-size: 16px;
-
-            &:hover {
-                cursor: pointer;
-            }
-        }
-    }   
+  display: flex;
+  justify-content: space-around;
+  margin-top: 27px;
+  font-size: 16px;
+  line-height: 8.91px;
+}
+.header img {
+  width: 35px;
+  height: 36.23px;
+}
+.header .nav {
+  display: flex;
+}
+.header .nav p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.header .lasles {
+  display: flex;
+  font-size: 20px;
+  line-height: 11.13px;
+}
+.header .sign {
+  display: flex;
+}
+.header .sign .in {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-family: "Cinzel", sans-serif;
+  padding-right: 14px;
+  font-size: 16px;
+}
+.header .sign .in:hover {
+  cursor: pointer;
+}
+.header .sign .up {
+  color: #F53855;
+  background-color: transparent;
+  border: 1px solid #F53855;
+  font-family: "Cinzel", sans-serif;
+  padding-left: 21px;
+  padding-right: 21px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+.header .sign .up:hover {
+  cursor: pointer;
 }
 
 .text_img {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 48px;
-
-    img {
-        width: 611.24px;
-        height: 382.44px;
-    }
-    
-    .no_img {
-        h1 {
-            font-size: 50px;
-            font-weight: 400;
-            line-height: 70px;
-        }
-    
-
-        p {
-            font-size: 16px;
-            line-height: 30px;
-            color: #4F5665;
-        }
-
-        .vpn {
-            font-weight: bold;
-        }
-
-        button {
-            background-color:   #F53838;
-
-            border: none;
-            border-radius: 4.7px;
-
-            color: white;
-            font-family: 'Cinzel', sans-serif;
-            font-size: 16px;
-
-            width: 250px;
-            height: 60px;
-
-            margin-top: 50px;
-
-            box-shadow: 0 25px 54px #F5383859;
-
-            &:hover {
-                cursor: pointer;
-            }
-        }
-    }    
+  display: flex;
+  justify-content: space-around;
+  margin-top: 48px;
+}
+.text_img img {
+  width: 611.24px;
+  height: 382.44px;
+}
+.text_img .no_img h1 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+}
+.text_img .no_img p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+.text_img .no_img .vpn {
+  font-weight: bold;
+}
+.text_img .no_img button {
+  background-color: #F53838;
+  border: none;
+  border-radius: 4.7px;
+  color: white;
+  font-family: "Cinzel", sans-serif;
+  font-size: 16px;
+  width: 250px;
+  height: 60px;
+  margin-top: 50px;
+  box-shadow: 0 25px 54px rgba(245, 56, 56, 0.3490196078);
+}
+.text_img .no_img button:hover {
+  cursor: pointer;
 }
 
 .info {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
-
-    .data_i {
-        display: flex;
-    }
-
-    .im_t {
-        display: flex;
-        flex-direction: column;
-        padding-left: 17.15px;
-    
-
-        p {
-            margin: 0;
-            font-size: 25px;
-            font-weight: 700;
-        }
-
-        span {
-            font-size: 20px;
-            color: #4F5665;
-        }
-    } 
-    .bord {
-        border-left:1px solid #EEEFF2;
-        border-right: 1px solid #EEEFF2;
-
-        padding-left: 220px;
-        padding-right: 220px;
-    }
-
-    img {
-        width: 55px;
-        height: 55px;
-    }
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.info .data_i {
+  display: flex;
+}
+.info .im_t {
+  display: flex;
+  flex-direction: column;
+  padding-left: 17.15px;
+}
+.info .im_t p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+.info .im_t span {
+  font-size: 20px;
+  color: #4F5665;
+}
+.info .bord {
+  border-left: 1px solid #EEEFF2;
+  border-right: 1px solid #EEEFF2;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+.info img {
+  width: 55px;
+  height: 55px;
 }
 
 .s2 {
-    margin-top: 100px;
-    .feat {
-        display: flex;
-        justify-content: space-around;
-        
-        .feat_text {
-            ul {
-                list-style-image: url(/img/Vector2.png);
-            }
-
-        
-            li {
-                line-height: 30px;
-                color: #4F5665;
-            }
-
-            h2 {
-                font-size: 35px;
-                line-height: 30px;
-            }
-
-            span {
-                font-size: 16px;
-                line-height: 30px;
-                color: #4F5665;
-            }
-    }   }
+  margin-top: 100px;
+}
+.s2 .feat {
+  display: flex;
+  justify-content: space-around;
+}
+.s2 .feat .feat_text ul {
+  list-style-image: url(/img/Vector2.png);
+}
+.s2 .feat .feat_text li {
+  line-height: 30px;
+  color: #4F5665;
+}
+.s2 .feat .feat_text h2 {
+  font-size: 35px;
+  line-height: 30px;
+}
+.s2 .feat .feat_text span {
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
 }
 
 .s3 {
-    text-align: center;
-
-    h2{
-        font-size: 35px;
-    }
-
-    span {
-        font-size: 16px;
-        color: #4F5665;
-    }
-    .plan {
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 60px;
-            ul {
-                list-style-image: url(/img/Vector3.png);
-                
-                &.free_ul{
-                    margin-bottom: 130px;
-                }
-
-                &.standart_ul {
-                    margin-bottom: 100px;
-                }
-
-                &.prem_ul {
-                    margin-bottom: 75px;
-                }
-            }
-            li {
-                text-align: left;
-                font-size: 14px;
-                color: #4F5665;
-            }
-        
-        .plan_div {
-            border: 2px solid #DDDDDD;
-            border-radius: 10px;
-            padding-top: 80px;
-            padding-bottom: 50px;
-            padding-left: 70px;
-            padding-right: 70px;
-
-            &.prem_plan {
-                border: 2px solid #F53838;
-            }
-            
-            p {
-                font-size: 25px;
-                font-weight: bold;
-            }
-
-            span {
-                font-size: 25px;
-                font-weight: 400;
-            }
-
-            h3 {
-                font-size: 18px;
-            }
-
-            button {
-                background-color: transparent;
-                border: 1px solid #F53855;
-                
-                font-family: 'Cinzel', sans-serif;
-                border-radius: 50px;
-
-                font-size: 16px;
-
-                width: 177.88px;
-                height: 45px;
-
-                &.act_button {
-                    color: #FFFFFF;
-                    background-color: #F53838;
-                    box-shadow: 0 25px 54px #F5383859;
-                }
-
-                &:hover {
-                    cursor: pointer;
-                }
-            }
-        }
-    }
+  text-align: center;
+}
+.s3 h2 {
+  font-size: 35px;
+}
+.s3 span {
+  font-size: 16px;
+  color: #4F5665;
+}
+.s3 .plan {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.s3 .plan ul {
+  list-style-image: url(/img/Vector3.png);
+}
+.s3 .plan ul.free_ul {
+  margin-bottom: 130px;
+}
+.s3 .plan ul.standart_ul {
+  margin-bottom: 100px;
+}
+.s3 .plan ul.prem_ul {
+  margin-bottom: 75px;
+}
+.s3 .plan li {
+  text-align: left;
+  font-size: 14px;
+  color: #4F5665;
+}
+.s3 .plan .plan_div {
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.s3 .plan .plan_div.prem_plan {
+  border: 2px solid #F53838;
+}
+.s3 .plan .plan_div p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.s3 .plan .plan_div span {
+  font-size: 25px;
+  font-weight: 400;
+}
+.s3 .plan .plan_div h3 {
+  font-size: 18px;
+}
+.s3 .plan .plan_div button {
+  background-color: transparent;
+  border: 1px solid #F53855;
+  font-family: "Cinzel", sans-serif;
+  border-radius: 50px;
+  font-size: 16px;
+  width: 177.88px;
+  height: 45px;
+}
+.s3 .plan .plan_div button.act_button {
+  color: #FFFFFF;
+  background-color: #F53838;
+  box-shadow: 0 25px 54px rgba(245, 56, 56, 0.3490196078);
+}
+.s3 .plan .plan_div button:hover {
+  cursor: pointer;
 }
 
 .s4 {
-    text-align: center;
-    h2{ 
-        font-size: 35px;
-    }
-
-    span {
-        color: #4F5665;
-        font-size: 16px;
-    }
-
-    .imges {
-        margin-top: 156px;
-    }
+  text-align: center;
+}
+.s4 h2 {
+  font-size: 35px;
+}
+.s4 span {
+  color: #4F5665;
+  font-size: 16px;
+}
+.s4 .imges {
+  margin-top: 156px;
 }
 
 .s5 {
-    text-align: center;
-    h2 {
-        font-size: 35px;
-    }
-
-    p {
-        color: #4F5665;
-        font-size: 16px;
-    }
-
-    .all_rev {
-        text-align: left;
-        display: flex;
-
-        margin-left: 150px;
-    }
-
-    .reviews {
-    border: 2px solid #DDDDDD;
-    border-radius: 10px;
-        &.act_rev {
-            border: 2px solid #F53838;
-        }
-    width: 400px;
-    height: 230px;
-
-    margin-right: 50px;
-
-        p {
-            padding-left: 30px;
-            padding-bottom: 30px;
-            padding-right: 30px;
-
-            font-size: 14px;
-        }
-    }
-
-    .profile {
-        display: flex;
-
-        padding-top: 30px;
-        padding-left: 30px;
-        .name_city {
-            h3 {
-                margin: 0;
-                font-size: 14px;
-            }
-
-            span {
-                font-size: 12px;
-            }
-        }
-        img { 
-            width: 50px;
-            height: 50px;
-
-            margin-right: 20px;
-        }
-        .star {
-            margin-left: 90px;
-            img {
-                width: 16px;
-                height: 16px;
-            }
-        }
-    }
+  text-align: center;
 }
+.s5 h2 {
+  font-size: 35px;
+}
+.s5 p {
+  color: #4F5665;
+  font-size: 16px;
+}
+.s5 .all_rev {
+  text-align: left;
+  display: flex;
+  margin-left: 150px;
+}
+.s5 .reviews {
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  width: 400px;
+  height: 230px;
+  margin-right: 50px;
+}
+.s5 .reviews.act_rev {
+  border: 2px solid #F53838;
+}
+.s5 .reviews p {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  font-size: 14px;
+}
+.s5 .profile {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.s5 .profile .name_city h3 {
+  margin: 0;
+  font-size: 14px;
+}
+.s5 .profile .name_city span {
+  font-size: 12px;
+}
+.s5 .profile img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.s5 .profile .star {
+  margin-left: 90px;
+}
+.s5 .profile .star img {
+  width: 16px;
+  height: 16px;
+}/*# sourceMappingURL=main.css.map */
