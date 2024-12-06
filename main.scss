@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
+@mixin button_transperent {
+    color: #F53855;
+
+    background-color: transparent;
+    border: 1px solid #F53855;
+            
+    font-family: 'Cinzel', sans-serif;
+            
+    padding-left: 21px;
+    padding-right: 21px;
+            
+    border-radius: 50px;
+
+    font-size: 16px;
+
+    width: 150px;
+    height: 45px;
+
+        &:hover {
+            cursor: pointer;
+        }
+}
+
+@mixin button_red {
+    background-color:   #F53838;
+
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 16px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    box-shadow: 0 25px 54px #F5383859;
+}
+
 
 body {
     font-family: 'Cinzel', sans-serif;
@@ -48,23 +88,7 @@ body {
         } 
 
         .up {
-        color: #F53855;
-
-            background-color: transparent;
-            border: 1px solid #F53855;
-            
-            font-family: 'Cinzel', sans-serif;
-            
-            padding-left: 21px;
-            padding-right: 21px;
-            
-            border-radius: 50px;
-
-            font-size: 16px;
-
-            &:hover {
-                cursor: pointer;
-            }
+            @include button_transperent;
         }
     }   
 }
@@ -98,25 +122,12 @@ body {
         }
 
         button {
-            background-color:   #F53838;
-
-            border: none;
-            border-radius: 4.7px;
-
-            color: white;
-            font-family: 'Cinzel', sans-serif;
-            font-size: 16px;
+            @include button_red;
 
             width: 250px;
             height: 60px;
 
             margin-top: 50px;
-
-            box-shadow: 0 25px 54px #F5383859;
-
-            &:hover {
-                cursor: pointer;
-            }
         }
     }    
 }
@@ -230,11 +241,7 @@ body {
         .plan_div {
             border: 2px solid #DDDDDD;
             border-radius: 10px;
-            padding-top: 80px;
-            padding-bottom: 50px;
-            padding-left: 70px;
-            padding-right: 70px;
-
+            padding: 80px 70px 50px 70px;
             &.prem_plan {
                 border: 2px solid #F53838;
             }
@@ -254,56 +261,31 @@ body {
             }
 
             button {
-                background-color: transparent;
-                border: 1px solid #F53855;
-                
-                font-family: 'Cinzel', sans-serif;
-                border-radius: 50px;
-
-                font-size: 16px;
-
-                width: 177.88px;
-                height: 45px;
+                @include button_transperent;
 
                 &.act_button {
-                    color: #FFFFFF;
-                    background-color: #F53838;
-                    box-shadow: 0 25px 54px #F5383859;
-                }
+                    @include button_red;
 
-                &:hover {
-                    cursor: pointer;
+                    border-radius: 50px;
                 }
             }
         }
     }
 }
 
-.s4 {
+.s4_5 {
     text-align: center;
     h2{ 
-        font-size: 35px;
-    }
-
-    span {
-        color: #4F5665;
-        font-size: 16px;
-    }
-
-    .imges {
-        margin-top: 156px;
-    }
-}
-
-.s5 {
-    text-align: center;
-    h2 {
         font-size: 35px;
     }
 
     p {
         color: #4F5665;
         font-size: 16px;
+    }
+
+    .imges {
+        margin-top: 156px;
     }
 
     .all_rev {
@@ -325,9 +307,7 @@ body {
     margin-right: 50px;
 
         p {
-            padding-left: 30px;
-            padding-bottom: 30px;
-            padding-right: 30px;
+            padding: 0 30px 30px;
 
             font-size: 14px;
         }

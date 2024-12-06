@@ -51,6 +51,8 @@ body {
   padding-right: 21px;
   border-radius: 50px;
   font-size: 16px;
+  width: 150px;
+  height: 45px;
 }
 .header .sign .up:hover {
   cursor: pointer;
@@ -81,14 +83,14 @@ body {
 .text_img .no_img button {
   background-color: #F53838;
   border: none;
-  border-radius: 4.7px;
+  border-radius: 10px;
   color: white;
   font-family: "Cinzel", sans-serif;
   font-size: 16px;
+  box-shadow: 0 25px 54px rgba(245, 56, 56, 0.3490196078);
   width: 250px;
   height: 60px;
   margin-top: 50px;
-  box-shadow: 0 25px 54px rgba(245, 56, 56, 0.3490196078);
 }
 .text_img .no_img button:hover {
   cursor: pointer;
@@ -186,10 +188,7 @@ body {
 .s3 .plan .plan_div {
   border: 2px solid #DDDDDD;
   border-radius: 10px;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 80px 70px 50px 70px;
 }
 .s3 .plan .plan_div.prem_plan {
   border: 2px solid #F53838;
@@ -206,89 +205,87 @@ body {
   font-size: 18px;
 }
 .s3 .plan .plan_div button {
+  color: #F53855;
   background-color: transparent;
   border: 1px solid #F53855;
   font-family: "Cinzel", sans-serif;
+  padding-left: 21px;
+  padding-right: 21px;
   border-radius: 50px;
   font-size: 16px;
-  width: 177.88px;
+  width: 150px;
   height: 45px;
-}
-.s3 .plan .plan_div button.act_button {
-  color: #FFFFFF;
-  background-color: #F53838;
-  box-shadow: 0 25px 54px rgba(245, 56, 56, 0.3490196078);
 }
 .s3 .plan .plan_div button:hover {
   cursor: pointer;
 }
+.s3 .plan .plan_div button.act_button {
+  background-color: #F53838;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: "Cinzel", sans-serif;
+  font-size: 16px;
+  box-shadow: 0 25px 54px rgba(245, 56, 56, 0.3490196078);
+  border-radius: 50px;
+}
+.s3 .plan .plan_div button.act_button:hover {
+  cursor: pointer;
+}
 
-.s4 {
+.s4_5 {
   text-align: center;
 }
-.s4 h2 {
+.s4_5 h2 {
   font-size: 35px;
 }
-.s4 span {
+.s4_5 p {
   color: #4F5665;
   font-size: 16px;
 }
-.s4 .imges {
+.s4_5 .imges {
   margin-top: 156px;
 }
-
-.s5 {
-  text-align: center;
-}
-.s5 h2 {
-  font-size: 35px;
-}
-.s5 p {
-  color: #4F5665;
-  font-size: 16px;
-}
-.s5 .all_rev {
+.s4_5 .all_rev {
   text-align: left;
   display: flex;
   margin-left: 150px;
 }
-.s5 .reviews {
+.s4_5 .reviews {
   border: 2px solid #DDDDDD;
   border-radius: 10px;
   width: 400px;
   height: 230px;
   margin-right: 50px;
 }
-.s5 .reviews.act_rev {
+.s4_5 .reviews.act_rev {
   border: 2px solid #F53838;
 }
-.s5 .reviews p {
-  padding-left: 30px;
-  padding-bottom: 30px;
-  padding-right: 30px;
+.s4_5 .reviews p {
+  padding: 0 30px 30px;
   font-size: 14px;
 }
-.s5 .profile {
+.s4_5 .profile {
   display: flex;
   padding-top: 30px;
   padding-left: 30px;
 }
-.s5 .profile .name_city h3 {
+.s4_5 .profile .name_city h3 {
   margin: 0;
   font-size: 14px;
 }
-.s5 .profile .name_city span {
+.s4_5 .profile .name_city span {
   font-size: 12px;
 }
-.s5 .profile img {
+.s4_5 .profile img {
   width: 50px;
   height: 50px;
   margin-right: 20px;
 }
-.s5 .profile .star {
+.s4_5 .profile .star {
   margin-left: 90px;
 }
-.s5 .profile .star img {
+.s4_5 .profile .star img {
   width: 16px;
   height: 16px;
 }/*# sourceMappingURL=main.css.map */
