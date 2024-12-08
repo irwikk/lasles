@@ -288,4 +288,151 @@ body {
 .s4_5 .profile .star img {
   width: 16px;
   height: 16px;
+}
+.s4_5 .button_rev {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.s4_5 .button2 .left_b {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #F53838;
+  border-radius: 50%;
+  background: none;
+}
+.s4_5 .button2 .left_b:hover {
+  cursor: pointer;
+}
+.s4_5 .button2 .right_b {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #F53838;
+  border-radius: 50%;
+  background: #F53838;
+}
+.s4_5 .button2 .right_b:hover {
+  cursor: pointer;
+}
+.s4_5 .button4 {
+  display: flex;
+  justify-content: space-between;
+  width: 135px;
+  height: 15px;
+}
+.s4_5 .button4 .red_b {
+  width: 45px;
+  height: 15px;
+  background: #F53838;
+  border-radius: 10px;
+  border: none;
+}
+.s4_5 .button4 .def {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.s6 {
+  width: 1140px;
+  height: 233px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+.s6 h2 {
+  color: #0B132A;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.s6 p {
+  color: #4F5665;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.s6 button {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  background: #F53838;
+  border: none;
+  font-family: "Cinzel", sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-top: 86px;
+}
+.s6 button:hover {
+  cursor: pointer;
+}
+
+footer {
+  width: 1440px;
+  height: 600px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: #F8F8F8;
+}
+footer .left {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  gap: 30px;
+}
+footer .left .top_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .left .top_left .logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+footer .left .top_left .logo h3 {
+  color: #0B132A;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer .left .top_left h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+footer .left .media h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #AFB5C0;
+}
+footer .footer_prod_eng_mon {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+footer .footer_prod_eng_mon .pem h2 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+footer .footer_prod_eng_mon .pem .list {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_prod_eng_mon .pem .list p {
+  color: #4F5665;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 5px 0;
 }/*# sourceMappingURL=main.css.map */
